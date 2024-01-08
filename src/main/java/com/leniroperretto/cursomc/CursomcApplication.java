@@ -66,8 +66,7 @@ public class CursomcApplication implements CommandLineRunner {
 		Cidade c3 = new Cidade(null, "Campinas", est2);
 		
 		Cliente cli1 = new Cliente(null, "Maria Silva", "maria@gmail.com", "11122233344", TipoCliente.PESSOAFISICA);
-		Cliente cli2 = new Cliente(null, "Maria Silva", "maria@gmail.com", "11122233344", TipoCliente.PESSOAFISICA);
-		
+				
 		Endereco e1 = new Endereco(null, "Rua Flores", "300", "Apto 303", "Jardim", "38220834", cli1, c1);
 		Endereco e2 = new Endereco(null, "Avenida Matos", "105", "Sala 800", "Centro", "38777012", cli1, c2);
 		
